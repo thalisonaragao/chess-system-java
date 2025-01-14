@@ -18,7 +18,7 @@ public class Main {
 
         while (true){
             try {
-                //UI.clearScreen();
+                UI.clearScreen();
                 UI.printMatch(chessMatch,captured);
                 System.out.println();
                 System.out.print("Source: ");
